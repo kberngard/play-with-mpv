@@ -47,7 +47,7 @@ setup(
             'play-with-mpv=play_with_mpv:start',
         ],
     },
-    setup_requires=['wheel', 'install_freedesktop>=0.2.0'],
+    setup_requires=['wheel', 'install_freedesktop'],
     dependency_links=[
         "https://github.com/Thann/install_freedesktop"
     ],
